@@ -13,9 +13,10 @@ https://github.com/protocolbuffers/protobuf/blob/master/examples/addressbook.pro
 
 ### Step 2 : 
 Compile .proto to java files 
-protoc --java_out={DIRECTORY_FOR_JAVA_OUTPUT_FILES} addressbook.proto
-OR
-protoc -I={SRC_DIR_CONTAINING_PROTO_FILES} --java_out={DIRECTORY_FOR_JAVA_OUTPUT_FILES}
+
+- protoc --java_out={DIRECTORY_FOR_JAVA_OUTPUT_FILES} addressbook.proto
+- protoc -I={SRC_DIR_CONTAINING_PROTO_FILES} --java_out={DIRECTORY_FOR_JAVA_OUTPUT_FILES}
+
 The above generates com/example/tutorial/AddressBookProtos.java in output directory i.e java
 
 ### Step 3 : 
